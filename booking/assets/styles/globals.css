@@ -1,0 +1,15 @@
+
+@tailwind utilities;
+
+/* Define CSS variables for light and dark mode */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+/* Apply CSS variables to the body */
+body {
+  @apply bg-[var(--background)] text-[var(--foreground)];
+  font-family: Arial, Helvetica, sans-serif;
+}
